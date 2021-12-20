@@ -46,7 +46,7 @@
 
             <br>
 
-            <label for="checkbox">Click here to enable cookies</label>
+            <label for="checkbox">Click here to enable cookies (automatically selected)</label>
             <input id="checkbox" type="checkbox" name="enable-cookies" checked>
 
             <br>
@@ -62,6 +62,8 @@
             <label for="radio">Hobgoblin</label>
             <input id="radio" type="radio" name="favourite-beer">
 
+            <br>
+
             <label for="ship-preference">Select which class of ship you like</label>
             <select id="ship=preference" name="ship-preference">
                 <option value="corvette">Corvette</option>
@@ -74,6 +76,25 @@
                 <option value="auxilliary">Fast Fleet Auxilliary</option>
 
             </select>
+
+            <br>
+
+            <label for="factions">Enter your preferred faction</label>
+
+            <input type="text" id="factions" list="faction-list" name="faction">
+
+            <datalist id="faction-list">
+                <option value="Adeptus Astartes"></option>
+                <option value="Astra Militarum"></option>
+                <option value="Orks"></option>
+                <option value="Aeldari"></option>
+                <option value="Necrons"></option>
+                <option value="Traitor Legions"></option>
+                <option value="Adepta Sororitas"></option>
+                <option value="Tau"></option>
+                <option value="Tyranids"></option>
+
+            </datalist>
 
         </form>
 
