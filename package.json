@@ -1,0 +1,19 @@
+{
+  "name": "git-experimentation",
+  "version": "1.0.0",
+  "description": "HTML and CSS testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamBoley/Git-Experimentation.git"
+  },
+  "author": "Adam Boley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamBoley/Git-Experimentation/issues"
+  },
+  "homepage": "https://github.com/AdamBoley/Git-Experimentation#readme"
+}
