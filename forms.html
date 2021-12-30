@@ -20,41 +20,53 @@
         <br>
 
         <form action="https://formdump.codeinstitute.net" method="POST">
-            <label for="Username">Enter your username here</label>
-            <input type="text" id="Username" name="username" placeholder="Enter your username here">
+            
+            <fieldset>
+                <legend>This is a fieldset element, which draws a box</legend>
+            
+            <label for="first-name">First Name (not required)</label>
+            <input type="text" id="first-name" name="first-name" placeholder="Enter your first name here">
+
+            <br>
+
+            <label for="last-name">Last Name (not required)</label>
+            <input type="text" id="last-name" name="last-name" placeholder="Enter your last name here">
+
+            <br>
+
+            <label for="Username">Enter your username here (required)</label>
+            <input type="text" id="Username" name="username" placeholder="Enter your username here" required>
 
             <br>
             
-            <label for="email">Enter your email address here</label>
-            <input type="email" id="email" name="email address" placeholder="Enter your email address here">
+            <label for="email">Enter your email address here (required)</label>
+            <input type="email" id="email" name="email address" placeholder="Enter your email address here" required>
 
             <br>
 
-            <label for="password">Enter your password here</label>
-            <input type="password" id="password" name="password" placeholder="Enter your password here">
-            
-            <br>
+            <label for="password">Enter your password here (required)</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password here" required>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>This is another fieldset element</legend>
 
             <label for="message">Enter your message here</label>
             <br>
             <textarea id="message" name="message" placeholder="Write your message here"></textarea>
 
-            <br>
+            </fieldset>
 
-            <input type="submit" value="Click here to submit the form">
-            <input type="reset" value="Click here to clear the form">
 
-            <br>
 
-            <label for="checkbox">Click here to enable cookies (automatically selected)</label>
-            <input id="checkbox" type="checkbox" name="enable-cookies" checked>
-
-            <br>
+            <fieldset>
+                <legend>Beer</legend>
 
             <p>Select your favourite beer:</p>
 
             <label for="radio">Fursty Ferret</label>
-            <input id="radio" type="radio" name="favourite-beer">
+            <input id="radio" type="radio" name="favourite-beer" required>
 
             <label for="radio">Golden Champion</label>
             <input id="radio" type="radio" name="favourite-beer">
@@ -62,7 +74,10 @@
             <label for="radio">Hobgoblin</label>
             <input id="radio" type="radio" name="favourite-beer">
 
-            <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Ship tonnage</legend>
 
             <label for="ship-preference">Select which class of ship you like</label>
             <select id="ship=preference" name="ship-preference">
@@ -77,7 +92,7 @@
 
             </select>
 
-            <br>
+            </fieldset>
 
             <label for="factions">Enter your preferred faction</label>
 
@@ -95,10 +110,21 @@
                 <option value="Tyranids"></option>
 
             </datalist>
+            
+            <fieldset>
+                <legend>Form options</legend>
+                
+                <button type="submit"><strong>A submit button with bold text</strong></button>
 
-            <button type="submit"><strong>A submit button with bold text</strong></button>
+                <button type="reset"><em>A reset button with italic text</em></button>
 
-            <button type="reset"><em>A reset button with italic text</em></button>
+            <br>
+
+            <label for="checkbox">Click here to enable cookies (automatically selected)</label>
+            <input id="checkbox" type="checkbox" name="enable-cookies" checked>
+
+            </fieldset>
+
 
         </form>
 
