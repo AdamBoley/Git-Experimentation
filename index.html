@@ -27,7 +27,7 @@
             text-align:center;
           }
 
-          a {
+          p ~ a {
             background-color:orangered;
             color:whitesmoke;
           }
@@ -53,7 +53,19 @@
           #box:hover {
             width:300px;
             height:300px;
-            background-color:chartreuse
+            background-color:chartreuse;
+          }
+
+          header > p {
+            color:darkslateblue;
+          }
+
+          article p {
+            color:red;
+          }
+
+          article aside p {
+            color:blue
           }
 
 
@@ -76,6 +88,8 @@
 
             <p>The heading and these two sentences are placed inside a header element</p>
 
+            <p>All of the text in this header section should appear dark slate blue, as it is styled using the CSS child selector method</p>
+
         </header>
 
         <nav>
@@ -83,6 +97,8 @@
             <p>This is a nav element, which contains the links to the pages of HTML elements</p>
 
             <p>These are anchor elements, which are hyperlinks to other pages. These are links to internal pages, so the browser tab will display that page</p>
+
+            <p>The hyperlinks should be in white text on an orange-red background, since a style rule with the CSS sibling selector method has been applied</p>
 
             <a href="/Git-Experimentation/" aria-label="Home">Home</a>
 
@@ -197,6 +213,11 @@
 
                 <p>This is an example of an aside element. The first and third paragraphs are providing a generic high-level overview of octopuses. 
                     The second paragraph digresses into discussing how octopuses defend themselves
+                </p>
+
+                <p>
+                  The first and third paragraphs plus this one should appear red. The second paragraph, the aside, should be blue. 
+                  This is because two CSS rules with the Descendent Selector method have been applied
                 </p>
 
             </article>
