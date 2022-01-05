@@ -81,11 +81,15 @@ fieldset {
     color:blue;
 }
 
+fieldset legend {
+    color: green;
+}
+
 fieldset label {
     color:rebeccapurple
 }
 
-#submit, #reset {
+button[type=reset], button[type=submit] {
     background-color:greenyellow;
     color:purple;
 }
