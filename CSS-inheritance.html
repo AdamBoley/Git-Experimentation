@@ -29,10 +29,10 @@
             #father {
                 color: blue;
                 font-size: 20px;
-                border: 3px dotted purple;
+                border: 2px solid purple;
             }
 
-            #child-of-mother {
+            #child-of-father {
                 border: inherit;
             }
 
@@ -49,16 +49,20 @@
 
         <div id="mother">
 
-            <p` id="child-of-mother">
+            <p >
                 This is a paragraph within a div. The text is red because a CSS rule styles the parent div and the paragraph inherits the color property
                 The border is defined in the same style rule, but is not inherited by the paragraph because borders are not inherited by default
             </p>
 
         </div>
 
+        <br>
+
+        <br>
+
         <div id="father">
 
-            <p>
+            <p id="child-of-father">
                 This is a paragraph within a second div. The text is blue because a CSS styles the parent div and the paragraph inherits the color property
                 The paragraph also has a border because the border is defined in the same style rule and a second style rule that targets the paragraph
                 has been set to inherit the border styling
