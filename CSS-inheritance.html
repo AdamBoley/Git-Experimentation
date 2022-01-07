@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>
+            template
+        </title>
+
+        <meta charset="UTF-8">
+
+        <meta name="description" content="HTML template">
+
+        <meta name="keywords" content="template">
+
+        <meta name="author" content="Adam Boley">
+
+        <link href="styles.css" rel="stylesheet">
+
+        <style>
+
+            #mother {
+                color:red;
+                font-size: 20px;
+                border: 2px solid green;
+            }
+
+            #father {
+                color: blue;
+                font-size: 20px;
+                border: 3px dotted purple;
+            }
+
+            p {
+                border: inherit;
+            }
+
+        </style>
+
+
+    </head>
+
+    <body>
+
+        <a href="/Git-Experimentation/">Home</a>
+
+        <br>
+
+        <div id="mother">
+
+            <p>
+                This is a paragraph within a div. The text is red because a CSS rule styles the parent div and the paragraph inherits the color property
+                The border is defined in the same style rule, but is not inherited by the paragraph because borders are not inherited by default
+            </p>
+
+        </div>
+
+        <div id="father">
+
+            <p>
+                This is a paragraph within a second div. The text is blue because a CSS styles the parent div and the paragraph inherits the color property
+                The paragraph also has a border because the border is defined in the same style rule and a second style rule that targets the paragraph
+                has been set to inherit the border styling
+            </p>
+
+        </div>
+
+    </body>
+
+</html>

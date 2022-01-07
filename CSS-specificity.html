@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>
+            template
+        </title>
+
+        <meta charset="UTF-8">
+
+        <meta name="description" content="HTML template">
+
+        <meta name="keywords" content="template">
+
+        <meta name="author" content="Adam Boley">
+
+        <link href="styles.css" rel="stylesheet">
+
+        <style>
+            div {
+                height: 1000px;
+                width: 100px;
+                background-color: black
+            }
+
+            #box {
+                background-color:green;
+            }
+
+            .yellow {
+                background-color: yellow;
+            }
+
+            .blue {
+                background-color: blue;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <a href="/Git-Experimentation/">Home</a>
+
+        <br>
+
+        <div id="box" class="blue yellow"></div>
+
+        <p>Dicussion:</p>
+
+        <p>The box will appear green, because it is styled by a CSS rule that targets its ID of green</p>
+
+        <p>Should the ID rule be removed, the rule that targets the class of blue will apply, since class selectors are more specific than element type selectors, 
+            and because the rule is read and applied last
+        </p>
+        
+        
+
+    </body>
+
+</html>
