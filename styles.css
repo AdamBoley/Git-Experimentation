@@ -158,3 +158,39 @@ button[type=reset], button[type=submit] {
 #the-nautigal {
   font-family: "The Nautigal", cursive
 }
+
+#arial {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.text {
+  text-align: center;
+  font-size: large;
+  color: darkslateblue;
+}
+
+.text-justify {
+  text-align: justify;
+  font-size: large;
+  color:darkblue;
+}
+
+#vertical-align {
+  vertical-align: middle
+}
+
+.superscript {
+  vertical-align: super;
+}
+
+.subscript {
+  vertical-align: sub;
+}
+
+.more-superscript {
+  vertical-align: 20px;
+}
+
+.more-subscript {
+  vertical-align: -20px;
+}
