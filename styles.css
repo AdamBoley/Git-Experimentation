@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=The+Nautigal&display=swap');
+
 body {
     font-family:Arial;
     background-color:blanchedalmond;
@@ -92,4 +98,63 @@ fieldset label {
 button[type=reset], button[type=submit] {
     background-color:greenyellow;
     color:purple;
+}
+
+#percentage-parent {
+  height: 600px;
+  width: 800px;
+  background-color: cyan;
+}
+
+#percentage-child {
+  height: 50%;
+  width: 75%;
+  background-color: darkblue;
+  text-align: center;
+}
+
+#viewport-width {
+  height: 20vw;
+  width: 50vw;
+  background-color: darkmagenta;
+  text-align: center;
+}
+
+#viewport-height {
+  height: 40vh;
+  width: 30vh;
+  background-color: darkturquoise;
+  text-align: center;
+}
+
+#sticky-footer {
+  min-height:100vh;
+  background-color: dodgerblue;
+  height: 20px;
+  width: 100vw;
+  text-align: center;
+}
+
+#verdana {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#open-sans {
+  font-family: "Open Sans", Verdana, sans-serif;
+}
+
+#impact {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#hattenschweiler {
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#caveat {
+  font-family: Caveat, sans-serif;
+}
+
+#the-nautigal {
+  font-family: "The Nautigal", cursive
 }
