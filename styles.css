@@ -139,8 +139,19 @@ button[type=reset], button[type=submit] {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#verdana-bold {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
 #open-sans {
   font-family: "Open Sans", Verdana, sans-serif;
+  
+}
+
+#open-sans-300 {
+  font-family: "Open Sans", Verdana, sans-serif;
+  font-weight: 300;
 }
 
 #impact {
