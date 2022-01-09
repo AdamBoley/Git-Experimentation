@@ -242,7 +242,7 @@ button[type=reset], button[type=submit] {
   width: 640px;
   background-image: url('https://placeimg.com/640/480/animals');
   background-color:darkblue;
-  margin: 50px
+  margin: 50px;
 }
 /*The above rule should call an image 640*480px into a container matching those dimensions*/
 /*It should hence not repeat*/
@@ -252,7 +252,7 @@ button[type=reset], button[type=submit] {
   width: 400px;
   background-image: url('https://placeimg.com/100/100/arch');
   background-color: darkred;
-  margin: 50px
+  margin: 50px;
 }
 /*This rule should call an image 100*100px into a 400*400px container.*/
 /*This image should repeat 16 times*/
@@ -263,7 +263,7 @@ button[type=reset], button[type=submit] {
   background-image: url('https://placeimg.com/200/200/nature');
   background-color: darkolivegreen;
   background-repeat: no-repeat;
-  margin: 50px
+  margin: 50px;
 }
 /*This rule should call an image 200*200px into a 400*400px container, but should not repeat*/
 
@@ -273,7 +273,7 @@ button[type=reset], button[type=submit] {
   background-image: url('https://placeimg.com/200/200/people');
   background-color: palevioletred;
   background-repeat: space;
-  margin: 50px
+  margin: 50px;
 }
 /*This rule should call an image 200*200px into a 500*500px container*/
 /*It should display with spaces between the repeated images*/
@@ -284,7 +284,7 @@ button[type=reset], button[type=submit] {
   background-image: url('https://placeimg.com/200/200/tech');
   background-color: darkorchid;
   background-repeat: round;
-  margin: 50px
+  margin: 50px;
 }
 /*This rule should call an image 200*200px into a 500*500px container*/
 /*It should display with the images stretched to fill the empty space*/
