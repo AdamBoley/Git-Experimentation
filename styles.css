@@ -236,3 +236,48 @@ button[type=reset], button[type=submit] {
   border: 3px groove darkgray;
   margin: 150px;
 }
+
+#native-non-repeated-image {
+  height: 480px;
+  width: 640px;
+  background-image: url('https://placeimg.com/640/480/animals');
+  background-color:darkblue;
+}
+/*The above rule should call an image 640*480px into a container matching those dimensions*/
+/*It should hence not repeat*/
+
+#repeated-image {
+  height: 400px;
+  width: 400px;
+  background-image: url('https://placeimg.com/100/100/arch');
+  background-color: darkred;
+}
+/*This rule should call an image 100*100px into a 400*400px container.*/
+/*This image should repeat 16 times*/
+
+#forced-non-repeated-image {
+  height: 400px;
+  width: 400px;
+  background-image: url('https://placeimg.com/200/200/nature');
+  background-color: darkolivegreen;
+  background-repeat: no-repeat;
+}
+/*This rule should call an image 200*200px into a 400*400px container, but should not repeat*/
+
+#space-repeated-image {
+  height: 500px;
+  width: 500px;
+  background-image: url('https://placeimg.com/200/200/people');
+  background-color: palevioletred;
+}
+/*This rule should call an image 200*200px into a 500*500px container*/
+/*It should display with spaces between the repeated images*/
+
+#round-repeated-image {
+  height: 500px;
+  width: 500px;
+  background-image: url('https://placeimg.com/200/200/tech');
+  background-color: darkorchid;
+}
+/*This rule should call an image 200*200px into a 500*500px container*/
+/*It should display with the images stretched to fill the empty space*/
