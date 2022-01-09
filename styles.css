@@ -144,6 +144,11 @@ button[type=reset], button[type=submit] {
   font-weight: bold;
 }
 
+#verdana-italic {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
 #open-sans {
   font-family: "Open Sans", Verdana, sans-serif;
   
@@ -204,4 +209,32 @@ button[type=reset], button[type=submit] {
 
 .more-subscript {
   vertical-align: -20px;
+}
+
+#border-box {
+  background-color: darkorange;
+  color: darkblue;
+  text-align: center;
+  vertical-align: middle;
+  width: 400px;
+  height: 400px;
+  padding: 100px;
+  border-width: 5px;
+  border-style: outset;
+  border-color: darkred;
+  border-radius: 10px;
+  margin: 150px;
+}
+
+#circle {
+  background-color: darkturquoise;
+  color: darkorange;
+  text-align: center;
+  vertical-align: middle;
+  width: 300px;
+  height: 300px;
+  padding: 100px;
+  border-radius: 50%;
+  border: 3px groove darkgray;
+  margin: 150px;
 }
