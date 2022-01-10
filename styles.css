@@ -296,7 +296,7 @@ button[type=reset], button[type=submit] {
   background-color: orange;
   background-repeat: no-repeat;
   margin: 50px;
-  background-position: cover;
+  background-size: cover;
 }
 
 #background-image-contain {
@@ -306,7 +306,7 @@ button[type=reset], button[type=submit] {
   background-color: peru;
   background-repeat: no-repeat;
   margin: 50px;
-  background-position: contain;
+  background-size: contain;
 }
 
 #background-image-auto {
@@ -316,6 +316,6 @@ button[type=reset], button[type=submit] {
   background-color: hotpink;
   background-repeat: no-repeat;
   margin: 50px;
-  background-position: auto;
+  background-size: auto;
 }
 
