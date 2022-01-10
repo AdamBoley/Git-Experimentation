@@ -352,4 +352,15 @@ button[type=reset], button[type=submit] {
   background-position: bottom 100px right 70px;
 }
 
+#background-image-attachment {
+  height: 800px;
+  width: 1920px;
+  background-image: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg');
+  background-color: chocolate;
+  margin: 50px;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
 
