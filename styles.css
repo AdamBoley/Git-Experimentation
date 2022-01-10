@@ -357,10 +357,11 @@ button[type=reset], button[type=submit] {
   width: 1920px;
   background-image: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg');
   background-color: chocolate;
-  margin: 50px;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+  margin-top: 50px;
+  margin-bottom: 500px;
 
 }
 
