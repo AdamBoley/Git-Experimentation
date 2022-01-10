@@ -288,3 +288,34 @@ button[type=reset], button[type=submit] {
 }
 /*This rule should call an image 200*200px into a 500*500px container*/
 /*It should display with the images stretched to fill the empty space*/
+
+#background-image-cover {
+  height: 500px;
+  width: 500px;
+  background-image: url('https://placeimg.com/200/200/animals');
+  background-color: orange;
+  background-repeat: no-repeat;
+  margin: 50px;
+  background-position: cover;
+}
+
+#background-image-contain {
+  height: 500px;
+  width: 500px;
+  background-image: url('https://placeimg.com/200/200/aniamls');
+  background-color: peru;
+  background-repeat: no-repeat;
+  margin: 50px;
+  background-position: contain;
+}
+
+#background-image-auto {
+  height: 500px;
+  width: 500px;
+  background-image: url('https://placeimg.com/200/200/animals');
+  background-color: hotpink;
+  background-repeat: no-repeat;
+  margin: 50px;
+  background-position: auto;
+}
+
