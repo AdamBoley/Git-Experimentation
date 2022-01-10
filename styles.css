@@ -319,3 +319,37 @@ button[type=reset], button[type=submit] {
   background-size: auto;
 }
 
+#background-image-position-1 {
+  height: 500px;
+  width: 500px;
+  background-image: url('https://placeimg.com/200/200/animals');
+  background-color: hotpink;
+  background-repeat: no-repeat;
+  margin: 50px;
+  background-size: auto;
+  background-position: top right;
+}
+
+#background-image-position-2 {
+  height: 500px;
+  width: 500px;
+  background-image: url('https://placeimg.com/200/200/animals');
+  background-color: hotpink;
+  background-repeat: no-repeat;
+  margin: 50px;
+  background-size: auto;
+  background-position: top 100px left;
+}
+
+#background-image-position-3 {
+  height: 500px;
+  width: 500px;
+  background-image: url('https://placeimg.com/200/200/animals');
+  background-color: hotpink;
+  background-repeat: no-repeat;
+  margin: 50px;
+  background-size: auto;
+  background-position: bottom 100px right 70px;
+}
+
+
