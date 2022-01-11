@@ -366,6 +366,8 @@ button[type=reset], button[type=submit] {
 
 .label-block {
   display: block;
+  width: 20%;
+  max-width: 20%;
 }
 /*This rule is designed to target label elements, and should force the 
 associated input elements onto the line below*/
