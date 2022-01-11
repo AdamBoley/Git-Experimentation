@@ -34,28 +34,35 @@
             <fieldset>
                 <legend>This is a fieldset element, which draws a box</legend>
             
-            <label for="first-name">First Name (not required)</label>
-            <input type="text" id="first-name" name="first-name" placeholder="Enter your first name here">
+            <div class="inline-block-div">
+                <label for="first-name" class="label-block">First Name (not required)</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Enter your first name here">
+            </div>
 
             <br>
 
-            <label for="last-name">Last Name (not required)</label>
-            <input type="text" id="last-name" name="last-name" placeholder="Enter your last name here">
-
+            <div class="inline-block-div">
+                <label for="last-name" class="label-block">Last Name (not required)</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Enter your last name here">
+            </div>
             <br>
 
-            <label for="Username">Enter your username here (required)</label>
-            <input type="text" id="Username" name="username" placeholder="Enter your username here" required>
-
+            <div class="inline-block-div">
+                <label for="Username" class="label-block">Enter your username here (required)</label>
+                <input type="text" id="Username" name="username" placeholder="Enter your username here" required>
+            </div>
             <br>
             
-            <label for="email">Enter your email address here (required)</label>
-            <input type="email" id="email" name="email address" placeholder="Enter your email address here" required>
-
+            <div class="inline-block-div">
+                <label for="email" class="label-block">Enter your email address here (required)</label>
+                <input type="email" id="email" name="email address" placeholder="Enter your email address here" required>
+            </div>
             <br>
 
-            <label for="password">Enter your password here (required)</label>
-            <input type="password" id="password" name="password" placeholder="Enter your password here" required>
+            <div class="inline-block-div">
+                <label for="password" class="label-block">Enter your password here (required)</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password here" required>
+            </div>
 
             </fieldset>
 
@@ -89,7 +96,7 @@
             <fieldset>
                 <legend>Ship tonnage</legend>
 
-            <label for="ship-preference">Select which class of ship you like</label>
+            <label for="ship-preference" class="label-block">Select which class of ship you like</label>
             <select id="ship=preference" name="ship-preference">
                 <option value="corvette">Corvette</option>
                 <option value="hunter-killer">Hunter Killer</option>
@@ -107,7 +114,7 @@
             <fieldset>
                 <legend>Faction picker</legend>
 
-            <label for="factions">Enter your preferred faction</label>
+            <label for="factions" class="label-block">Enter your preferred faction</label>
 
             <input type="text" id="factions" list="faction-list" name="faction">
 

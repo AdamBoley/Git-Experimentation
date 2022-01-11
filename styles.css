@@ -362,6 +362,15 @@ button[type=reset], button[type=submit] {
   background-attachment: fixed;
   margin-top: 50px;
   margin-bottom: 500px;
-
 }
 
+.label-block {
+  display: block;
+}
+/*This rule is designed to target label elements, and should force the 
+associated input elements onto the line below*/
+
+.inline-block-div {
+  display: inline-block;
+  width: 20%;
+}
