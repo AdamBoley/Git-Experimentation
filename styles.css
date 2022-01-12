@@ -376,3 +376,32 @@ associated input elements onto the line below*/
   display: inline-block;
   width: 20%;
 }
+
+.generic-div {
+  height: 200px;
+  width: 200px;
+  background: chocolate;
+  color: white;
+  text-align: center;
+}
+
+#relative-box {
+  position: relative;
+  background: yellowgreen;
+  left: 200px;
+  bottom: 200px;
+}
+
+#absolute-box {
+  position: absolute;
+  right: 0%;
+}
+
+#fixed-footer {
+  background-color: navy;
+  color: lightgrey;
+  width: 100%;
+  height: 1rem;
+  position: fixed;
+  bottom: 0%;
+}
