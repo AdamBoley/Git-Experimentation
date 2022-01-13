@@ -385,6 +385,12 @@ associated input elements onto the line below*/
   text-align: center;
 }
 
+.generic-text {
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
 #relative-box {
   position: relative;
   background: yellowgreen;
@@ -444,3 +450,31 @@ associated input elements onto the line below*/
   z-index:4;
 }
 
+#overflow-auto-div {
+  overflow: auto;
+}
+
+#overflow-scroll-div {
+  overflow: scroll;
+}
+
+#float-left {
+  height: 200px;
+  width: 40%;
+  background-color: turquoise;
+  float: left;
+}
+
+#float-right {
+  height: 200px;
+  width: 40%;
+  background-color: lime;
+  float: right;
+}
+
+#clear-both {
+  height: 200px;
+  width: 100%;
+  background-color: darkmagenta;
+  clear: both;
+}
